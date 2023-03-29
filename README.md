@@ -111,6 +111,9 @@ background,face1,eyes1_v2,mouth1
 background,face1,eyes2,mouth1
 background,face1,eyes2_v2,mouth
 ```
+
+example file [layers_order.csv](https://github.com/cryptskii/gifmaker/files/11099767/layers_order.csv)
+
 ...
 To run the application, open a terminal/command prompt, navigate to the "GIFCreator" folder, and execute the following command:
 bash
