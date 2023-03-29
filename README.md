@@ -3,9 +3,9 @@
 Certainly! Here's a complete guide to setting up and running the application, including installing necessary libraries and organizing your files:
 
 Install the required libraries:
+
 bash
-Copy code
-pip install Pillow
+```pip install Pillow```
 Create a new folder named "GIFCreator" for your project. Inside the "GIFCreator" folder, create another folder named "images" where you'll store your PNG files.
 
 Inside the "GIFCreator" folder, create a Python file named gif_creator.py and paste the following code:
