@@ -96,9 +96,9 @@ output_gif_button.grid(row=2, column=2)
 
 # Create GIF button
 create_gif_button = tk.Button(root, text="Create GIF", command=create_gif)
-create_gif_button.grid(row=3, column=1, pady=10)```
+create_gif_button.grid(row=3, column=1, pady=10)
 
-root.mainloop()
+root.mainloop()```
 Place the PNG files inside the "images" folder. Make sure the names of the PNG files correspond to the names in the CSV file.
 
 Create a CSV file (layers_order.csv) in the "GIFCreator" folder with your desired layer combinations. Here's a sample content for the CSV file:
