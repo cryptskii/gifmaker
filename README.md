@@ -98,7 +98,8 @@ output_gif_button.grid(row=2, column=2)
 create_gif_button = tk.Button(root, text="Create GIF", command=create_gif)
 create_gif_button.grid(row=3, column=1, pady=10)
 
-root.mainloop()```
+root.mainloop()
+```
 Place the PNG files inside the "images" folder. Make sure the names of the PNG files correspond to the names in the CSV file.
 
 Create a CSV file (layers_order.csv) in the "GIFCreator" folder with your desired layer combinations. Here's a sample content for the CSV file:
@@ -108,7 +109,8 @@ arduino
 ```background,face1,eyes1,mouth1
 background,face1,eyes1_v2,mouth1
 background,face1,eyes2,mouth1
-background,face1,eyes2_v2,mouth```
+background,face1,eyes2_v2,mouth
+```
 ...
 To run the application, open a terminal/command prompt, navigate to the "GIFCreator" folder, and execute the following command:
 bash
